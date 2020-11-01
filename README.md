@@ -1,16 +1,5 @@
 # V1178.github.io
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<a href="index.html" >Ссылка</a>
-</body>
-</html>
-
-  
-<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -21,7 +10,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Umwix3.0.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/V.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
